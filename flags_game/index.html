@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>World Flag Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>World Flag Quiz Game</h1>
+        <div id="flag-container">
+            <img id="flag-image" src="" alt="Flag">
+        </div>
+        <div id="answers-container" class="answers-grid">
+            <button class="answer-button" id="answer-1"></button>
+            <button class="answer-button" id="answer-2"></button>
+            <button class="answer-button" id="answer-3"></button>
+            <button class="answer-button" id="answer-4"></button>
+        </div>
+        <div id="result"></div>
+        <div id="loading">Loading flags...</div>
+        <div class="button-group">
+            <button id="show-passed-flags-btn">Passed Flags</button>
+            <button id="show-all-flags-btn">All Flags</button>
+        </div>
+    </div>
+
+    <div id="passed-flags-container" class="flags-container">
+        <h2>Passed Flags</h2>
+        <div id="passed-flags" class="flags-grid"></div>
+        <button id="back-to-game-btn" class="back-button">Back to Game</button>
+    </div>
+
+    <div id="all-flags-container" class="flags-container">
+        <h2>All Flags</h2>
+        <div id="all-flags" class="flags-grid"></div>
+        <button id="back-to-game-from-all-btn" class="back-button">Back to Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
